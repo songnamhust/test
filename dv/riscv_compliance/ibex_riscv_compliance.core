@@ -12,6 +12,26 @@ filesets:
     files:
       - rtl/ibex_riscv_compliance.sv
       - rtl/riscv_testutil.sv
+      - rtl/adder_32bit.sv
+      - rtl/alu.sv
+      - rtl/bj_detect.sv
+      - rtl/compress_decoder.sv
+      - rtl/control_unit.sv
+      - rtl/encodings.sv
+      - rtl/ex_mem_pipeline_reg.sv
+      - rtl/forwarding_unit.sv
+      - rtl/id_ex_pipeline_reg.sv
+      - rtl/if_id_pipeline_reg.sv
+      - rtl/immediate_generate.sv
+      - rtl/interface_imem.sv
+      - rtl/load_store_unit.sv
+      - rtl/mem_wb_pipeline_reg.sv
+      - rtl/mux_2x1_32bit.sv
+      - rtl/mux_4x1_32bit.sv
+      - rtl/reg_file.sv
+      - rtl/register_32bit.sv
+      - rtl/stall.sv
+      - rtl/cpu_pipeline.sv
     file_type: systemVerilogSource
 
   files_verilator:

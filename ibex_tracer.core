@@ -12,6 +12,7 @@ filesets:
     files:
       - rtl/ibex_tracer_pkg.sv
       - rtl/ibex_tracer.sv
+      - dv/riscv_compliance/rtl/tracer_pkg.sv
     file_type: systemVerilogSource
 
 targets:

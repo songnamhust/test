@@ -137,7 +137,7 @@ module ibex_riscv_compliance (
     assign ibex_instr_rdata_intg = '0;
   end
 
-  ibex_top_tracing #(
+  top_tracing #(
       .PMPEnable        (PMPEnable         ),
       .PMPGranularity   (PMPGranularity    ),
       .PMPNumRegions    (PMPNumRegions     ),
@@ -158,8 +158,8 @@ module ibex_riscv_compliance (
       .DmHaltAddr       (32'h00000000      ),
       .DmExceptionAddr  (32'h00000000      )
     ) u_top (
-      .clk_i                  (clk_sys              ),
-      .rst_ni                 (rst_sys_n            ),
+      .CLK                  (clk_sys              ),
+      .RST_N                 (rst_sys_n            ),
 
       .test_en_i              ('b0                  ),
       .scan_rst_ni            (1'b1                 ),

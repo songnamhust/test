@@ -11,6 +11,10 @@ filesets:
       - lowrisc:ibex:ibex_tracer
     files:
       - rtl/ibex_top_tracing.sv
+      - dv/riscv_compliance/rtl/top_tracing.sv
+      - dv/riscv_compliance/rtl/cpu_pipeline_top.sv
+      - dv/riscv_compliance/rtl/tracer.sv
+      - dv/riscv_compliance/rtl/encodings.sv
     file_type: systemVerilogSource
 
 parameters:
